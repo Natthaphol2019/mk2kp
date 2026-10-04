@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Custom ignore
+.env.local
+.env
+CHANGELOG.md
+supabase/migrations/
