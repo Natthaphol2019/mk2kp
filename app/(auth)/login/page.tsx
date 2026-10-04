@@ -30,6 +30,7 @@ export default function LoginPage() {
     formData.append('username', username)
     formData.append('password', password)
 
+    localStorage.setItem('rider_wallet_username', username)
     const result = await login(formData)
     
     if (result?.error) {
